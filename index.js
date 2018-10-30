@@ -17,7 +17,9 @@ function nameToAttributes (drivers) {
    return newArr2 
  }
  
- function 
+ function attributesToPhrase (drivers) {
+   return drivers.map(d => `d.name)
+ }
  
  
  
